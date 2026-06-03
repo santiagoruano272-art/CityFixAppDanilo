@@ -13,4 +13,4 @@ RUN npm install
 COPY . .
 
 # CAMBIA ESTA LÍNEA: Comando para mantener el contenedor despierto e infinito
-CMD ["sh", "-c", "tail -f /dev/null"]
+CMD ["npm", "test"]
